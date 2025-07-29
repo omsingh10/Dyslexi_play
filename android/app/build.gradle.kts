@@ -42,3 +42,13 @@ android {
 flutter {
     source = "../.."
 }
+
+dependencies {
+    implementation(platform("com.google.firebase:firebase-bom:32.7.0"))
+    implementation("com.google.firebase:firebase-analytics")   // Required for tracking
+    implementation("com.google.firebase:firebase-auth")        // If you're using Auth
+    implementation("com.google.firebase:firebase-firestore")   // If you're using Firestore
+    implementation("com.google.firebase:firebase-storage")     // If using Firebase Storage
+}
+
+apply(plugin = "com.google.gms.google-services")

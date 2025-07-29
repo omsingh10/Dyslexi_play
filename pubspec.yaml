@@ -12,14 +12,26 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  firebase_core: ^2.27.0
-  firebase_auth: ^4.11.0
-  cloud_firestore: ^4.10.0
-  firebase_storage: ^11.6.0
+  
   provider: ^6.1.2
+  google_sign_in: ^6.2.1
+  firebase_core: ^2.25.4
+  firebase_auth: ^4.17.4
+  cloud_firestore: ^4.15.4
+  firebase_storage: ^11.5.4
+  firebase_storage_web: ^3.6.16
+  js: ^0.6.7
 
  
   cupertino_icons: ^1.0.8
+  
+dependencies:
+  js: ^0.6.7  # Needed for PromiseJsImpl and js interop
+
+
+dependency_overrides:
+  firebase_storage_web: ^3.6.16
+
 
 dev_dependencies:
   flutter_test:
