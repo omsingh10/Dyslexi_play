@@ -50,7 +50,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyCNjcjACyKuWpWYxu6b1N1L-0UoO3dF3YU',
+    apiKey: '',
     appId: '1:577919622150:android:93d065adce3692fcceb787',
     messagingSenderId: '577919622150',
     projectId: 'dyslexiaapp-1',
