@@ -41,7 +41,7 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyDn98Z0MwU-VCujoCA6BUAshcpgS8xlqK0',
+    apiKey: '',
     appId: '1:577919622150:web:e3370ea18c91f488ceb787',
     messagingSenderId: '577919622150',
     projectId: 'dyslexiaapp-1',
@@ -50,7 +50,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyCNjcjACyKuWpWYxu6b1N1L-0UoO3dF3YU',
+    apiKey: '',
     appId: '1:577919622150:android:93d065adce3692fcceb787',
     messagingSenderId: '577919622150',
     projectId: 'dyslexiaapp-1',
@@ -58,7 +58,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyCYMsOmTzxVhW_5Wk8k66G0LG7ZJR71alg',
+    apiKey: '',
     appId: '1:577919622150:ios:e1dd675cf1cd31b6ceb787',
     messagingSenderId: '577919622150',
     projectId: 'dyslexiaapp-1',
@@ -67,7 +67,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyCYMsOmTzxVhW_5Wk8k66G0LG7ZJR71alg',
+    apiKey: '',
     appId: '1:577919622150:ios:e1dd675cf1cd31b6ceb787',
     messagingSenderId: '577919622150',
     projectId: 'dyslexiaapp-1',
@@ -76,7 +76,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyDn98Z0MwU-VCujoCA6BUAshcpgS8xlqK0',
+    apiKey: '',
     appId: '1:577919622150:web:3a66680c338ef80dceb787',
     messagingSenderId: '577919622150',
     projectId: 'dyslexiaapp-1',
