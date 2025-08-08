@@ -7,12 +7,17 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:577919622150:android:6e04baa4807b7f87ceb787",
+        "mobilesdk_app_id": "1:577919622150:android:93d065adce3692fcceb787",
         "android_client_info": {
-          "package_name": "com.om.dyslexia_app"
+          "package_name": "com.example.lexiplay"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "577919622150-gq31f3am4cenk33p9k0shh680r5mspci.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyCNjcjACyKuWpWYxu6b1N1L-0UoO3dF3YU"
@@ -20,7 +25,63 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "577919622150-gq31f3am4cenk33p9k0shh680r5mspci.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "577919622150-c4d9r85q0p7qk943n5708agij9pkepvd.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.lexiplay"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:577919622150:android:6e04baa4807b7f87ceb787",
+        "android_client_info": {
+          "package_name": "com.om.dyslexia_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "577919622150-9an94ubmin17c2tqh2tj54lg4c72ite3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.om.dyslexia_app",
+            "certificate_hash": "0f025e450519e1c3a0d0b3b09a02921b15f5b299"
+          }
+        },
+        {
+          "client_id": "577919622150-gq31f3am4cenk33p9k0shh680r5mspci.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNjcjACyKuWpWYxu6b1N1L-0UoO3dF3YU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "577919622150-gq31f3am4cenk33p9k0shh680r5mspci.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "577919622150-c4d9r85q0p7qk943n5708agij9pkepvd.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.lexiplay"
+              }
+            }
+          ]
         }
       }
     }

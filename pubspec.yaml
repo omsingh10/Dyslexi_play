@@ -25,8 +25,8 @@ dependencies:
  
   cupertino_icons: ^1.0.8
   
-dependencies:
-  js: ^0.6.7  # Needed for PromiseJsImpl and js interop
+# dependencies:
+#   js: ^0.6.7  # Needed for PromiseJsImpl and js interop
 
 
 dependency_overrides:
